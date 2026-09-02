@@ -31,18 +31,6 @@ export function renderSettings(root) {
           </div>
         `).join('')}
       </div>
-
-      <div class="divider"></div>
-      <div class="settings-row">
-        <div>
-          <div class="settings-row__label">${t('language', lang)}</div>
-          <div class="settings-row__desc">Interface language</div>
-        </div>
-        <select class="select" id="lang-select" style="max-width:160px">
-          <option value="en" ${s.lang === 'en' ? 'selected' : ''}>English</option>
-          <option value="sq" ${s.lang === 'sq' ? 'selected' : ''}>Shqip</option>
-        </select>
-      </div>
     </div>
 
     <div class="settings-section card">
@@ -76,11 +64,6 @@ export function renderSettings(root) {
       renderSettings(root);
       toast(`Theme set to ${mode}`, 'success');
     });
-  });
-
-  root.querySelector('#lang-select').addEventListener('change', (e) => {
-    store.updateSettings({ lang: e.target.value });
-    window.dispatchEvent(new CustomEvent('nexus:relanguage'));
   });
 
   root.querySelector('#export-btn').addEventListener('click', () => {
