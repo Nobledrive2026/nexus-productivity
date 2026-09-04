@@ -1,6 +1,6 @@
 # Nexus — Personal Productivity OS
 
-A single-page productivity workspace — dashboard, Kanban projects, Markdown notes, and a calendar — built with **zero frameworks and zero build step**: vanilla HTML, CSS and JavaScript (ES Modules), running entirely in the browser with local-first data storage.
+A single-page productivity workspace - dashboard, Kanban projects, Markdown notes, and a calendar - built with **zero frameworks and zero build step**: vanilla HTML, CSS and JavaScript (ES Modules), running entirely in the browser with local-first data storage.
 
 **Live demo:** https://nexus-productivity.pages.dev
 *(Installable as a PWA — open the link on desktop or mobile and use "Add to Home Screen" / "Install app".)*
@@ -12,7 +12,7 @@ A single-page productivity workspace — dashboard, Kanban projects, Markdown no
 The brief called for a modular, senior-grade codebase without relying on React/Vue/build tooling. Rather than treat that as a constraint, it became the design principle: prove that clean architecture comes from *discipline*, not from a framework enforcing it.
 
 - **ES Modules** (`import`/`export`) give the same separation of concerns a framework would (store / router / views / components) without a bundler.
-- **No build step** means the entire app can be opened from a static file host — Cloudflare Pages, GitHub Pages, or a plain folder — with zero configuration.
+- **No build step** means the entire app can be opened from a static file host - Cloudflare Pages, GitHub Pages, or a plain folder - with zero configuration.
 - **A single central store** (`store.js`) is the only place state is mutated. Every view reads from it and calls its methods; nothing touches `localStorage` directly except the store itself.
 
 ## Architecture
@@ -69,5 +69,5 @@ The visual identity is deliberately **not** the generic "AI-dashboard" look (war
 
 ## Known limitations
 
-- Data is stored per-browser via `localStorage`; there is no server sync between devices (by design — the brief specified local-first storage with manual export/import as the backup mechanism).
-- The Markdown renderer covers common syntax but is not a full CommonMark implementation — it was built intentionally small to keep the "zero dependencies" constraint honest.
+- Data is stored per-browser via `localStorage`; there is no server sync between devices (by design - the brief specified local-first storage with manual export/import as the backup mechanism).
+- The Markdown renderer covers common syntax but is not a full CommonMark implementation - it was built intentionally small to keep the "zero dependencies" constraint honest.
