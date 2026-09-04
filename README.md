@@ -50,7 +50,7 @@ nexus/
 | **Projects (Kanban)** | Unlimited projects, drag-and-drop between To Do / In Progress / Done (SortableJS), full task editor (priority, due date, tags, subtasks, estimate), live search + priority filters, multi-select bulk complete/delete. |
 | **Notes** | Markdown editor with a live-rendering preview pane (dependency-free ~70-line parser — headings, bold/italic, code, links, lists, blockquotes), folders, tags, pin, autosave. |
 | **Calendar** | Month grid built from raw date math (no date library), tasks plotted on their due date, day-detail modal, "add task for this day." |
-| **Settings** | Dark / Light / System theme, English/Albanian interface language, full JSON export/import (portable backup), reset-all-data with confirmation. |
+| **Settings** | Dark / Light / System theme, full JSON export/import (portable backup), reset-all-data with confirmation. |
 
 ## Cross-cutting concerns
 
