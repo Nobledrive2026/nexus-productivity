@@ -3,7 +3,7 @@
 A single-page productivity workspace - dashboard, Kanban projects, Markdown notes, and a calendar - built with **zero frameworks and zero build step**: vanilla HTML, CSS and JavaScript (ES Modules), running entirely in the browser with local-first data storage.
 
 **Live demo:** https://nexus-productivity.pages.dev
-*(Installable as a PWA — open the link on desktop or mobile and use "Add to Home Screen" / "Install app".)*
+*(Installable as a PWA - open the link on desktop or mobile and use "Add to Home Screen" / "Install app".)*
 
 ---
 
