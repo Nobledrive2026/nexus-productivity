@@ -63,8 +63,8 @@ nexus/
 
 The visual identity is deliberately **not** the generic "AI-dashboard" look (warm cream + terracotta, or black + acid green). It leans into a *mission-control* aesthetic that matches what the app actually does — monitoring and directing work in progress:
 
-- **Palette:** near-black graphite base (`#0B0E14`), amber signal accent for attention/priority, cyan for flow states, green for resolved, red for overdue — colors that map to *meaning* (priority/status), not decoration.
-- **Type:** Space Grotesk (display) + Inter (body) + JetBrains Mono (dates, counts, ids) — a technical pairing that reinforces the "instrument panel" feel.
+- **Palette:** near-black graphite base (`#0B0E14`), amber signal accent for attention/priority, cyan for flow states, green for resolved, red for overdue - colors that map to *meaning* (priority/status), not decoration.
+- **Type:** Space Grotesk (display) + Inter (body) + JetBrains Mono (dates, counts, ids) - a technical pairing that reinforces the "instrument panel" feel.
 - **Signature detail:** cut-corner ("HUD notch") stat cards and a pulsing status dot on section eyebrows, echoing radar/telemetry displays without leaning on cliché numbered-step or terminal-window motifs.
 
 ## Known limitations
