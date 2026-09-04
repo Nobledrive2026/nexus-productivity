@@ -1,4 +1,4 @@
-# Nexus — Personal Productivity OS
+# Nexus - Personal Productivity OS
 
 A single-page productivity workspace - dashboard, Kanban projects, Markdown notes, and a calendar - built with **zero frameworks and zero build step**: vanilla HTML, CSS and JavaScript (ES Modules), running entirely in the browser with local-first data storage.
 
